@@ -1,0 +1,24 @@
+{
+  "name": "react-touchable-carousel",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "repository": "git@github.com:duxiaofeng-github/react-touchable-carousel.git",
+  "homepage": "https://www.github.com/duxiaofeng-github/react-touchable-carousel",
+  "author": "duxiaofeng-github <csdxf297951292@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && microbundle"
+  },
+  "dependencies": {
+    "react-swipeable": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
+}

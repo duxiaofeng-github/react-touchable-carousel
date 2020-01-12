@@ -1,0 +1,6 @@
+node_modules
+./dist
+yarn-error.log
+.linaria-cache
+.rts2_cache*
+.DS_Store
